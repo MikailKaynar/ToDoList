@@ -1,0 +1,9 @@
+.box {
+  margin-top: 0.5rem;
+  padding: 0.3rem;
+  list-style: none;
+  background-color: #edede9;
+  box-shadow: 0 2px 40px #d5bdaf;
+  text-align: center;
+  border-radius: 10px;
+}
