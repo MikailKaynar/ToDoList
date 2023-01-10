@@ -1,32 +1,42 @@
 .App {
   text-align: center;
   width: 45rem;
-  height: 50rem;
+  min-height: 50rem;
   background-color: #f5ebe0;
   align-items: center;
   margin: 4rem auto;
   border-radius: 4.5rem;
   overflow: hidden;
   box-shadow: 0 2px 40px #d5bdaf;
+  padding-bottom: 1rem;
 }
 
-.up{
+.up {
   background-color: #e3d5ca;
   width: 45rem;
   height: 8rem;
   padding-top: 5rem;
 }
 
-.up label{
-  padding-bottom: 0.4rem;
-  font-size: large;
+.up button {
+  width: 51.1%;
+  margin-left: 11rem;
+  margin-top: 0.4rem;
   display: block;
-  font-weight: 500;
-  color: #14213d;
-  text-decoration: underline;
+  font: inherit;
+  padding: 0.2rem;
+  border: 1px solid #003049;
+  color: white;
+  background: #14213d;
 }
 
-.up input{
+.up label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.up input {
   width: 50%;
   border: 1px solid #ccc;
   font: inherit;
@@ -40,14 +50,11 @@
   border-color: #8b005d;
 }
 
-.up button{
-  width: 51.1%;
-  margin-left: 11rem;
-  margin-top: 0.4rem;
-  display: block;
-  font: inherit;
-  padding: 0.2rem ;
-  border: 1px solid #003049;
-  color: white;
-  background: #14213d;
+.up.invalid input {
+  border-color: red;
+  background: #ffd7d7;
+}
+
+.up.invalid label {
+  color: red;
 }
